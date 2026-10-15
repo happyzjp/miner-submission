@@ -1,0 +1,14 @@
+{
+  "version": "capabilityforge-method.v1",
+  "entrypoint": "generator.py",
+  "method_license_id": "MIT",
+  "dependencies_file": "dependencies.json",
+  "capabilities": [
+    "ratio_scaling", "ratio_transfer", "linear_modeling", "chinese_reading",
+    "english_language", "physics_reasoning", "chemistry_reasoning", "biology_reasoning"
+  ],
+  "source_ids": [
+    "synthetic-ratio-v1", "synthetic-chinese-v1", "synthetic-english-v1",
+    "synthetic-physics-v1", "synthetic-chemistry-v1", "synthetic-biology-v1"
+  ]
+}
