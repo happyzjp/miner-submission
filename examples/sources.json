@@ -1,0 +1,8 @@
+[
+  {"source_id": "synthetic-ratio-v1", "license_id": "Apache-2.0", "uri": "urn:capforge:synthetic:ratio-v1", "approved": true},
+  {"source_id": "synthetic-chinese-v1", "license_id": "Apache-2.0", "uri": "urn:capforge:synthetic:chinese-v1", "approved": true},
+  {"source_id": "synthetic-english-v1", "license_id": "Apache-2.0", "uri": "urn:capforge:synthetic:english-v1", "approved": true},
+  {"source_id": "synthetic-physics-v1", "license_id": "Apache-2.0", "uri": "urn:capforge:synthetic:physics-v1", "approved": true},
+  {"source_id": "synthetic-chemistry-v1", "license_id": "Apache-2.0", "uri": "urn:capforge:synthetic:chemistry-v1", "approved": true},
+  {"source_id": "synthetic-biology-v1", "license_id": "Apache-2.0", "uri": "urn:capforge:synthetic:biology-v1", "approved": true}
+]

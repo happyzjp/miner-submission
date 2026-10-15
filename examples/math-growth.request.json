@@ -1,0 +1,19 @@
+{
+  "schema_version": "learning-unit.v5",
+  "unit": {
+    "unit_id": "preview-math-growth-zh",
+    "stage": "GROWTH",
+    "language": "zh",
+    "age_band": {"min_inclusive": 14, "max_exclusive": 16},
+    "capability": "linear_modeling",
+    "prerequisites": ["basic_arithmetic", "fractions"],
+    "input_modalities": ["text"],
+    "sample_budget": 8,
+    "generation_seed": 20261017,
+    "scenario": "recipe",
+    "behavior": "solution"
+  },
+  "source_ids": ["synthetic-ratio-v1"],
+  "output": "problem_specs.jsonl",
+  "public_diagnostics": {}
+}

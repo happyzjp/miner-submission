@@ -1,0 +1,19 @@
+{
+  "schema_version": "learning-unit.v5",
+  "unit": {
+    "unit_id": "preview-math-foundation-zh",
+    "stage": "FOUNDATION",
+    "language": "zh",
+    "age_band": {"min_inclusive": 12, "max_exclusive": 14},
+    "capability": "ratio_scaling",
+    "prerequisites": ["basic_arithmetic", "fractions"],
+    "input_modalities": ["text"],
+    "sample_budget": 8,
+    "generation_seed": 20261015,
+    "scenario": "classroom",
+    "behavior": "hint"
+  },
+  "source_ids": ["synthetic-ratio-v1"],
+  "output": "problem_specs.jsonl",
+  "public_diagnostics": {}
+}
