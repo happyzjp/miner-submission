@@ -1,14 +1,12 @@
 {
-  "version": "capabilityforge-method.v1",
+  "schema_version": "1",
+  "name": "sample-arith-method",
+  "version": "1.0.0",
   "entrypoint": "generator.py",
-  "method_license_id": "MIT",
   "dependencies_file": "dependencies.json",
-  "capabilities": [
-    "ratio_scaling", "ratio_transfer", "linear_modeling", "chinese_reading",
-    "english_language", "physics_reasoning", "chemistry_reasoning", "biology_reasoning"
-  ],
-  "source_ids": [
-    "synthetic-ratio-v1", "synthetic-chinese-v1", "synthetic-english-v1",
-    "synthetic-physics-v1", "synthetic-chemistry-v1", "synthetic-biology-v1"
-  ]
+  "license": "MIT",
+  "capabilities": ["math", "text"],
+  "source_ids": ["synthetic-math-v1"],
+  "python": "3.11",
+  "description": "Deterministic sample generator: arithmetic expressions and simple cloze/reading items from a seeded PRNG."
 }
