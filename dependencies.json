@@ -1,5 +1,4 @@
 {
-  "python": "3.11",
-  "dependencies": [],
-  "network": "none"
+  "schema_version": "1",
+  "packages": []
 }

@@ -8,5 +8,5 @@
   "capabilities": ["math", "text"],
   "source_ids": ["synthetic-math-v1"],
   "python": "3.11",
-  "description": "Deterministic sample generator: arithmetic expressions and simple cloze/reading items from a seeded PRNG."
+  "description": "Deterministic arithmetic curriculum sample with FOUNDATION, TRANSFER and GROWTH stages. Other template branches are examples; declare capabilities and source_ids for the task you actually support."
 }
